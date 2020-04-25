@@ -1,18 +1,27 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <el-button type="success" round @click="changeName">Success</el-button>
+    <button> Я кнопка </button>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+  },
+  methods: {
+    changeName () {
+      console.log('ээээээ')
+    }
   }
 }
 </script>
+
+<style scoped>
+button {
+  width: ;
+}
+</style>

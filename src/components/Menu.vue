@@ -21,12 +21,20 @@
           </span>
         </router-link>
       </div>
+
+      <div class="content__item">
+        <router-link to="/practice">
+          <span>
+            Практика
+          </span>
+        </router-link>
+      </div>
     </div>
 </template>
 
 <script>
-  export default {
-  }
+export default {
+}
 </script>
 
 <style scoped>

@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import AddHabit from '../views/AddHabit.vue'
 import MyHabits from '../views/MyHabits.vue'
+import Practice from '../views/Practice.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/myHabits',
     name: 'MyHabits',
     component: MyHabits
+  },
+  {
+    path: '/practice',
+    name: 'Practice',
+    component: Practice
   },
   {
     path: '/about',

@@ -7,16 +7,16 @@
 </template>
 
 <script>
-  import Header from './components/Header'
-  import Menu from './components/Menu'
+import Header from './components/Header'
+import Menu from './components/Menu'
 
-  export default {
-    el: 'app',
-    components : {
-      Header,
-      Menu
-    }
+export default {
+  el: 'app',
+  components: {
+    Header,
+    Menu
   }
+}
 </script>
 
 <style>

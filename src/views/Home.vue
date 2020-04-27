@@ -1,7 +1,5 @@
 <template>
   <div class="home">
-    <el-button type="success" round @click="changeName">Success</el-button>
-    <button> Я кнопка </button>
   </div>
 </template>
 
@@ -10,6 +8,10 @@
 
 export default {
   name: 'Home',
+  data () {
+    return {
+    }
+  },
   components: {
   },
   methods: {
@@ -21,7 +23,4 @@ export default {
 </script>
 
 <style scoped>
-button {
-  width: ;
-}
 </style>

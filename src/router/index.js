@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import AddHabit from '../views/AddHabit.vue'
+import MyHabits from '../views/MyHabits.vue'
 
 Vue.use(VueRouter)
 
@@ -9,6 +11,16 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/addHabit',
+    name: 'AddHabit',
+    component: AddHabit
+  },
+  {
+    path: '/myHabits',
+    name: 'MyHabits',
+    component: MyHabits
   },
   {
     path: '/about',

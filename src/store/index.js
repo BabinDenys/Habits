@@ -6,7 +6,8 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     name: 'Denys Babin',
-    checkMenu: false
+    checkMenu: false,
+    buyed: []
   },
   mutations: {
     change () {
@@ -14,6 +15,9 @@ export default new Vuex.Store({
     },
     menuClick () {
       this.state.checkMenu = !this.state.checkMenu
+    },
+    addProduct (state, product) {
+      this.state.buyed.push(product)
     }
   },
   actions: {

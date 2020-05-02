@@ -18,7 +18,7 @@
         <el-button icon="el-icon-plus" class="btn" circle @click="incr" />
       </div>
 
-      <el-button type="success" plain round class="buy" @click="buyOneProd(oneProduct.name)">Купить</el-button>
+      <el-button type="success" plain round class="buy" @click="buyOneProd(oneProduct)">Добавить в корзину</el-button>
     </div>
 </template>
 
@@ -41,11 +41,18 @@
         }
       },
       buyOneProd(prod) {
-        if (this.counter > 0) {
-          confirm("Вы точно хотите купить товар " + prod + " В количестве " + this.counter )
-        } else {
-          alert("Вы не выбрали количество этого товара")
+        let product = {
+          name: prod.name,
+          price: prod.price,
+          count: this.counter,
         }
+        if (this.counter !== 0) {
+          this.$store.commit('addProduct', product )
+          console.log(this.$store.state.buyed)
+        } else {
+          alert('Простите, но вы не выбрали количество!!!')
+        }
+
 
       }
     }

@@ -20,7 +20,7 @@
           {
             name: "Джинсы",
             price: 400,
-            img: 'https://lh3.googleusercontent.com/proxy/Zwki8VDpVHggNDX3q7gpmuv2_U29mejyENufq0d1nJMqqBTl7V3gp-FZpMfbNlAhYjWA0wUDNLY1_vHAoLNsvURkJai2SrbqeUARdu5SAZvEkBDCNoXChyj5m0pSb8KOSiy6FGFGiqP0imIYVvSzn6e0TCYv99OYDpIdh-hzOmk7xod81GFQpT2ZDozlLKFEKWoueS3dtH7cF_Jl1FShpCa5-7oJTCX5AwKsc3SA0NeH7fBrrQXotA'
+            img: 'https://i.pinimg.com/originals/bf/3d/d2/bf3dd2059bdc94531019b050da340bb2.jpg'
           },
           {
             name: "Футболка",

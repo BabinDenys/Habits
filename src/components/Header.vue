@@ -1,7 +1,14 @@
 <template>
   <div class="content">
-    <div class="menu" @click="menuClick">
-      <img class="menu__image" src="../assets/menu.png" alt="" >
+    <div class="menu" >
+      <img class="menu__image" src="../assets/menu.png" alt="" @click="menuClick">
+      <router-link to="/basket">
+        <img class="basket__image"
+             src="https://c7.hotpng.com/preview/833/426/329/shopping-cart-icon-shopping-cart-png.jpg"
+             alt=""
+        >
+      </router-link>
+
     </div>
   </div>
 </template>
@@ -27,4 +34,9 @@
   width: 50px;
   height: auto;
 }
+  .basket__image {
+    width: 50px;
+    height: auto;
+    float: right;
+  }
 </style>

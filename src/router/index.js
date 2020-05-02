@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import AddHabit from '../views/AddHabit.vue'
 import MyHabits from '../views/MyHabits.vue'
 import Practice from '../views/Practice.vue'
+import Basket from '../views/Basket.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/practice',
     name: 'Practice',
     component: Practice
+  },
+  {
+    path: '/basket',
+    name: 'basket',
+    component: Basket
   },
   {
     path: '/about',
